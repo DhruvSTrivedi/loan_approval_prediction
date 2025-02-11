@@ -18,29 +18,65 @@ A histogram showcasing the distribution of loan amounts, revealing common loan r
 ### 2️⃣ Loan Status Distribution (Approved vs. Rejected)
 A count plot visualizing the proportion of approved and rejected loans, helping us understand class imbalances.
 
+<p align="center">
+  <img src="EDA_Visuals/loan_status_count.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
 ### 3️⃣ Income vs. Loan Amount (Scatter Plot)
 A scatter plot depicting how annual income influences loan amounts, highlighting risk patterns.
+
+<p align="center">
+  <img src="EDA_Visuals/income_vs_loan.png" alt="Loan Amount Distribution" width="600"/>
+</p>
 
 ### 4️⃣ CIBIL Score Distribution
 A histogram showing the distribution of **CIBIL scores**, which is a key factor in loan approvals.
 
+<p align="center">
+  <img src="EDA_Visuals/cibil_score_distribution.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
 ### 5️⃣ Loan Term Distribution
 A histogram to analyze how loan terms vary across applications, indicating typical repayment periods.
+
+<p align="center">
+  <img src="EDA_Visuals/loan_term_distribution.png" alt="Loan Amount Distribution" width="600"/>
+</p>
 
 ### 6️⃣ Self-Employment vs. Loan Status
 A bar chart showing whether self-employed individuals have higher rejection rates.
 
+<p align="center">
+  <img src="EDA_Visuals/self_employed_vs_loan.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
 ### 7️⃣ Education Level Impact
 A visualization comparing loan approval rates across different education levels.
 
-### 8️⃣ Dependents vs. Loan Approval
-A categorical analysis of how the number of dependents affects loan approval chances.
+<p align="center">
+  <img src="EDA_Visuals/loan_status_by_education.png" alt="Loan Amount Distribution" width="600"/>
+</p>
 
-### 9️⃣ Loan-to-Income Ratio
-A density plot showing the **loan-to-income ratio**, a crucial determinant in financial risk assessment.
+### 8️⃣ Feature Correlation Heatmap
+A correlation heatmap revealing how different features interact, helping us select the most predictive variables.
 
-### 🔟 Feature Correlation Heatmap
-A correlation heatmap revealing **how different features interact**, helping us select the most predictive variables.
+<p align="center">
+  <img src="EDA_Visuals/correlation_heatmap.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
+### 9️⃣ Loan Amount by Loan Status
+A boxplot showing how loan amounts differ for approved vs. rejected applications.
+
+<p align="center">
+  <img src="EDA_Visuals/loan_status_count.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
+### 🔟 Pairplot of Key Features
+A pairplot showing the relationships between major features like income, loan amount, CIBIL score, and loan term.
+
+<p align="center">
+  <img src="EDA_Visuals/pairplot.png" alt="Loan Amount Distribution" width="600"/>
+</p>
 
 ---
 
