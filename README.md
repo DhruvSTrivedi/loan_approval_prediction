@@ -11,6 +11,10 @@ Before building our predictive model, we conducted a thorough **EDA** to uncover
 ### 1️⃣ Loan Amount Distribution
 A histogram showcasing the distribution of loan amounts, revealing common loan ranges and outliers.
 
+<p align="center">
+  <img src="EDA_Visuals/loan_amount_distribution.png" alt="Loan Amount Distribution" width="600"/>
+</p>
+
 ### 2️⃣ Loan Status Distribution (Approved vs. Rejected)
 A count plot visualizing the proportion of approved and rejected loans, helping us understand class imbalances.
 
