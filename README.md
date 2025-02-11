@@ -101,11 +101,17 @@ Understanding **which factors impact loan approvals the most** is crucial. We an
 - **Loan Term & Loan-to-Income Ratio** are also critical factors.
 - **Immovable Assets & Dependents Adjusted Income** have minor but noticeable influence.
 
+![Feature Importance (Gain)](Output_Visuals/feature_importance_gain.png)
+
 ### 2️⃣ SHAP Value Impact
 - **SHAP values** provide an intuitive understanding of how individual features affect predictions.
 - CIBIL Score and Loan Term show the highest **positive impact** on approvals.
 - Higher Loan-to-Income Ratios negatively impact approvals.
 - **Feature interaction effects** are evident in CIBIL & Loan Term combinations.
+
+![Feature Importance (Weight)](Output_Visuals/Feature_importance.png)
+![Mean SHAP Impact](Output_Visuals/mean_shap_impact.png)
+![SHAP Value Impact](Output_Visuals/shap_value_impact.png)
 
 ---
 
@@ -114,7 +120,7 @@ To replicate the results, follow these steps:
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/loan-approval-prediction.git
+git clone https://github.com/DhruvSTrivedi/loan_approval_prediction
 cd loan-approval-prediction
 ```
 
