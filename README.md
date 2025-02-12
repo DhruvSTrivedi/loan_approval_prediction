@@ -8,12 +8,16 @@ Loan approvals play a crucial role in financial stability, helping individuals a
 ## 📊 Exploratory Data Analysis (EDA)
 Before building our predictive model, we conducted a thorough **EDA** to uncover trends, distributions, and relationships between variables. Here are the key visual insights:
 
+---
+
 ### 1️⃣ Loan Amount Distribution
 A histogram showcasing the distribution of loan amounts, revealing common loan ranges and outliers.
 
 <p align="center">
   <img src="EDA_Visuals/loan_amount_distribution.png" alt="Loan Amount Distribution" width="600"/>
 </p>
+
+---
 
 ### 2️⃣ Loan Status Distribution (Approved vs. Rejected)
 A count plot visualizing the proportion of approved and rejected loans, helping us understand class imbalances.
@@ -22,12 +26,16 @@ A count plot visualizing the proportion of approved and rejected loans, helping 
   <img src="EDA_Visuals/loan_status_count.png" alt="Loan Amount Distribution" width="600"/>
 </p>
 
+---
+
 ### 3️⃣ Income vs. Loan Amount (Scatter Plot)
 A scatter plot depicting how annual income influences loan amounts, highlighting risk patterns.
 
 <p align="center">
   <img src="EDA_Visuals/income_vs_loan.png" alt="Loan Amount Distribution" width="600"/>
 </p>
+
+---
 
 ### 4️⃣ CIBIL Score Distribution
 A histogram showing the distribution of **CIBIL scores**, which is a key factor in loan approvals.
@@ -36,12 +44,16 @@ A histogram showing the distribution of **CIBIL scores**, which is a key factor 
   <img src="EDA_Visuals/cibil_score_distribution.png" alt="Loan Amount Distribution" width="600"/>
 </p>
 
+---
+
 ### 5️⃣ Loan Term Distribution
 A histogram to analyze how loan terms vary across applications, indicating typical repayment periods.
 
 <p align="center">
   <img src="EDA_Visuals/loan_term_distribution.png" alt="Loan Amount Distribution" width="600"/>
 </p>
+
+---
 
 ### 6️⃣ Self-Employment vs. Loan Status
 A bar chart showing whether self-employed individuals have higher rejection rates.
@@ -50,12 +62,16 @@ A bar chart showing whether self-employed individuals have higher rejection rate
   <img src="EDA_Visuals/self_employed_vs_loan.png" alt="Loan Amount Distribution" width="600"/>
 </p>
 
+---
+
 ### 7️⃣ Education Level Impact
 A visualization comparing loan approval rates across different education levels.
 
 <p align="center">
   <img src="EDA_Visuals/loan_status_by_education.png" alt="Loan Amount Distribution" width="600"/>
 </p>
+
+---
 
 ### 8️⃣ Feature Correlation Heatmap
 A correlation heatmap revealing how different features interact, helping us select the most predictive variables.
@@ -64,12 +80,16 @@ A correlation heatmap revealing how different features interact, helping us sele
   <img src="EDA_Visuals/correlation_heatmap.png" alt="Loan Amount Distribution" width="600"/>
 </p>
 
+---
+
 ### 9️⃣ Loan Amount by Loan Status
 A boxplot showing how loan amounts differ for approved vs. rejected applications.
 
 <p align="center">
   <img src="EDA_Visuals/loan_status_count.png" alt="Loan Amount Distribution" width="600"/>
 </p>
+
+---
 
 ### 🔟 Pairplot of Key Features
 A pairplot showing the relationships between major features like income, loan amount, CIBIL score, and loan term.
@@ -103,6 +123,8 @@ Understanding **which factors impact loan approvals the most** is crucial. We an
 
 ![Feature Importance (Gain)](Output_Visuals/feature_importance_gain.png)
 
+---
+
 ### 2️⃣ SHAP Value Impact
 - **SHAP values** provide an intuitive understanding of how individual features affect predictions.
 - CIBIL Score and Loan Term show the highest **positive impact** on approvals.
@@ -110,7 +132,13 @@ Understanding **which factors impact loan approvals the most** is crucial. We an
 - **Feature interaction effects** are evident in CIBIL & Loan Term combinations.
 
 ![Feature Importance (Weight)](Output_Visuals/Feature_importance.png)
+
+---
+
 ![Mean SHAP Impact](Output_Visuals/mean_shap_impact.png)
+
+---
+
 ![SHAP Value Impact](Output_Visuals/shap_value_impact.png)
 
 ---
